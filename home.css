@@ -1,0 +1,60 @@
+@import url(node_modules/@fortawesome/fontawesome-free/js/all.js);
+@import url(node_modules/@fortawesome/fontawesome-free/css/all.css);
+@import url(node_modules/bootstrap/scss/bootstrap.scss);
+
+
+
+/*
+.dropdown:hover > .dropdown-menu {
+    display: block;
+    transition: all 0.5s ease;
+}
+
+*/
+.navbar {
+    background-color: transparent;
+    
+    width: 100%;
+    
+    
+    z-index: 10;
+}
+
+.dropdown-menu {
+    display: none;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.image-container {
+    position: relative;
+    color: white;
+    
+}
+
+.image-container img {
+    width: 100%;
+  /*  height: auto; */
+    height: 40vw; 
+}
+
+.image-container h1 {
+    position: absolute;
+    left: 30%;
+    bottom: 10px;
+    transform: translate(-50%, -50%); 
+    font-size: 10em;
+    color: solid whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card-img-top {
+    height: 350px; 
+    object-fit: cover;
+}
+
+
+
+
+
